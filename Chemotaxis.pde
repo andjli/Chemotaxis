@@ -15,7 +15,7 @@ void setup() {
 }
 void draw() {
   {
-    background(0);
+    background(64);
     rick.walk();
     rick.show();
     hillbillies[0].walk();
