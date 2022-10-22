@@ -15,7 +15,7 @@ void setup() {
 }
 void draw() {
   {
-    background(64);
+    background(0);
     rick.walk();
     rick.show();
     hillbillies[0].walk();
@@ -27,9 +27,9 @@ void draw() {
     for(int i = 0; i < saviors.length; i++) {
       saviors[i].walk();
       saviors[i].show();
-    if(get(mouseX,mouseY) == color(64))
-      fill(64);
-    if(get(mouseX,mouseY) != color(64))
+    if(get(mouseX,mouseY) == color(0))
+      fill(0);
+    if(get(mouseX,mouseY) != color(0))
       fill(255,0,0);
       textSize(50);
       text("WARNING!",400,100);
